@@ -1,0 +1,326 @@
+/* All Common CSS  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul,li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+/* All Common CSS  */
+
+
+
+#tophead{
+    padding-top: 36px;
+    padding-bottom: 30px;
+    background: #000;
+    
+}
+.headbarflex{
+    display: flex;
+    justify-content: space-between;
+}
+.menu  ul li {
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+.menu  ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+.button{
+    padding: 20px 48px;
+    background: #FFD2A4;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+ 
+   
+}
+.button a{
+    color: #ffffff;
+    font-weight: 400px;
+
+}
+.button a:hover{
+    color: #000;
+    transition: .4s;
+   
+}
+
+#banner{
+    padding-top: 200px;
+    padding-bottom: 135px;
+    background: url(../images/Image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.bannertext{
+    color: #ffffff;
+    
+
+}
+.bannertext h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    margin-top: 30px;
+}
+.learnmore h3{
+    padding: 20px 65px;
+    background-color: #FFD2A4;
+    
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 15px;
+    
+}
+
+.bannertext h6{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.bannertext p{
+    margin-top: 50px;
+}
+
+
+
+
+
+#subheadline{
+padding-top: 115px;
+
+}
+
+ .subheadline{
+text-transform: uppercase;
+font-weight: 400;
+text-align: center;
+color: black;
+ }
+ .subheadline h6{
+    margin-bottom: 30px;
+ }
+ .subheadline h1{
+    margin-bottom: 60px;
+ }
+
+
+
+
+ .textflex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    
+   
+} 
+
+     
+
+.text1{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #FFD2A4;
+    width: 30%;
+    padding-left: 30px;
+    
+   
+}
+    
+.text2{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #FFD2A4;
+    width: 32%;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.text3{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: #FFD2A4;
+    width: 32%;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.text1 h2{
+    margin-top: 40px;
+}
+.text1 p{
+    margin-top: 30px;
+}
+.text2 h2{
+    margin-top: 40px;
+}
+
+.text2 p{
+    margin-top: 30px;
+}
+
+.text3 h2{
+    margin-top: 40px;
+}
+
+.text3 p{
+    margin-top: 30px;
+}
+
+   
+ 
+ 
+     
+/* subheadlinepart 2 start */
+
+#subheadline2{
+    padding-bottom: 30px;
+    background: white;
+    text-align: center;
+   
+    
+
+}
+.subheadline2text p{
+padding: 0 100px;
+}
+
+.subheadline2 h6{
+    text-transform: uppercase;
+    line-height: 60px;
+   
+}
+.subheadline2 h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    line-height: 60px;
+   
+}   
+
+.readmore{
+    
+   padding: 20px 60px;
+   background-color: #FFD2A4;
+   display: inline-block;
+   text-transform: uppercase;
+   border-radius: 10px;
+   margin-top: 30px;
+} 
+
+
+/* subheadlinepart 2 start */
+
+/* image section start*/
+.image1{
+    width: 30%;
+
+}
+.image1 img{
+    width: 100%;
+    display: block;
+
+}
+.image2{
+    width: 35%;
+    margin-top: 50px;
+}
+.image2 img{
+    width: 100%;
+    display: block;
+}
+.image1{
+    width: 30%;
+}
+
+.imagepart{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+.lastext{
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+.lastext h5{
+    margin-bottom: 15px;
+}
+.lastext p{
+    margin-top: 20px;
+}
+
+
+
+    
+/* image section end */
+
+
+/* image2 section start */
+
+.image2 {
+    
+  
+    text-align: center;
+    line-height: 10px;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+
+.picture .pik1{
+    
+    width: 20%;
+}
+.picture .pik2{
+   
+    width: 20%;
+}
+.picture .pik3{
+   
+    width: 20%;
+}
+.picture .pik4{
+   
+    width: 20%;
+}
+
+
+
+
+/* image2 section end */
